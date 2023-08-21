@@ -7,32 +7,6 @@ A atividade consiste em analisar os dados da empresa de telecomunicações Megal
 
 Será realizada uma primeira análise dos planos baseados em uma pequena seleção de clientes. Terei dados de 500 clientes da Megaline: que clientes são, de onde eles são, qual plano usam, o número de chamadas que eles fizeram e mensagens que eles enviaram em 2018. O trabalho é analisar o comportamento dos clientes e determinar quais planos pré-pagos dão mais receita. E analisar se a receita média dos usuários da área de NY-NJ é diferente dos usuários de outras regiões.
 
-Os planos são:
-
-Surf
-
-Preço mensal: $20
-500 minutos mensais, 50 mensagens de texto, e 15 GB de dados
-Depois de exceder os limites do pacote:
-    1 minuto: 3 centavos
-    1 mensagem de texto: 3 centavos
-    1 GB de dados: $10
-
-Ultimate
-
-Preço mensal: $70
-3000 minutos mensais, 1000 mensagens de texto, e 30 GB de dados
-Depois de exceder os limites do pacote:
-    1 minuto: 1 centavo
-    1 mensagem de texto: 1 centavo
-    1 GB de dados: $7
-
-A empresa Megaline em relação a cobrança:
-
-    Para chamadas, cada chamada individual é arredondada para cima: mesmo se uma chamada tenha durado apenas um segundo, será contado como um minuto.
-
-    Para trafego de web, sessões individuais de web não são arredondadas para cima. Ao invés disso, o total do mês é arredondado para cima. Se alguém usar 1025 megabytes esse mês, eles serão cobrados por 2 gigabytes. Arredonda segundos para minutos, e megabytes para gigabytes.
-
 Primeiramente, será feita uma primeira visualização dos dados das quatro tabelas rebecidas. Procurarei por dados aausentes e outros problemas que possam afetar os resultados da análise. Então os dados serão enriquecidos para melhorar a análise futura.
 
 
